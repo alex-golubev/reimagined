@@ -2,7 +2,8 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "standard-with-typescript",
@@ -18,7 +19,9 @@
   ],
   "ignorePatterns": [
     "next.config.js",
-    "postcss.config.js"
+    "postcss.config.js",
+    "jest.config.js",
+    "jest.setup.js"
   ],
   "rules": {
   }
